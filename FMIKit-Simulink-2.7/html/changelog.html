@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Changelog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Changelog</h1>
+
+<h2>2.7</h2>
+
+<p>This release brings fixes and improvements for the import and export of FMUs.
+It is now distributed as a ZIP archive (instead of a MATLAB App) for easier deployment.</p>
+
+<h3>FMU import</h3>
+
+<ul>
+<li><code>changed</code> the input port direct feedthrough is now automatically derived from the model structure and replaces the "direct input" checkbox.
+This also introduces the expected one step delay for Co-Simulation FMUs and resolves issues with complex models. See the documentation for the exact calling sequence.</li>
+<li><code>new</code> the relative tolerance can now be set for Co-Simulation</li>
+<li><code>new</code> the "Log level" is now adjustable</li>
+<li><code>new</code> FMI calls can now be logged</li>
+<li><code>new</code> the log messages can now be redirected to a file</li>
+<li><code>new</code> the FMIKit.setSampleTime() and FMIKit.setInterfaceType() functions have been added to the API</li>
+<li><code>improved</code> an installed CMake is now detected more reliably</li>
+<li><code>improved</code> long FMU descriptions are now displayed completely</li>
+<li><code>removed</code> the obsolete "Error diagnostics" checkbox has been removed</li>
+</ul>
+
+<h3>FMU export (grtfmi.tlc)</h3>
+
+<ul>
+<li><code>fixed</code> purely discrete models are now synchronized correctly</li>
+<li><code>fixed</code> the indices for array parameters have been fixed</li>
+<li><code>new</code> exported FMUs can now contain FMU blocks</li>
+<li><code>new</code> block outputs, busses and enumerations can now be exported</li>
+<li><code>new</code> a screenshot of the model is added as model.png</li>
+<li><code>updated</code> the FMI headers have been updated to version 2.0.1</li>
+<li><code>changed</code> the "resources" have been replaced with a more flexible template directory</li>
+</ul>
+
+</body>
+</html>

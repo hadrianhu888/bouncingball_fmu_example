@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+  fmiVersion="2.0"
+  modelName="custom_bouncing_ball_sf"
+  guid="{ad0c31c0-9103-4715-bccc-269e4f609958}" 
+  description="S-function with FMI generated from Simulink model custom_bouncing_ball"
+  author="hadrian"
+  version="1.4"
+  generationTool="Dassault Systemes FMI Kit for Simulink, ver. 2.7 (MATLAB 9.6 (R2021b) 14-May-2021)"
+  generationDateAndTime="2022-05-17T20:32:35Z"
+  variableNamingConvention="structured"
+  numberOfEventIndicators="0">
+  <CoSimulation
+    modelIdentifier="custom_bouncing_ball_sf"
+	canHandleVariableCommunicationStepSize="true"
+    canInterpolateInputs="true"/>
+  <DefaultExperiment startTime="0.0"
+    stopTime="10.0"
+    stepSize="0.2"/>
+  <VendorAnnotations>
+    <Tool
+      name="CATIA_System_Synthesis">
+      <model 
+         path="resources\SimulinkModel\custom_bouncing_ball.slx"/>
+    </Tool>
+  </VendorAnnotations>
+  <ModelVariables>
+    <!-- Index for next variable = 1 -->
+    <ScalarVariable
+      name="Position"
+      valueReference="1073741824"
+      causality="output">
+      <Real/>
+    </ScalarVariable>
+    <!-- Index for next variable = 2 -->
+    <ScalarVariable
+      name="Velocity"
+      valueReference="1073741825"
+      causality="output">
+      <Real/>
+    </ScalarVariable>
+    <!-- Index for next variable = 3 -->
+    <ScalarVariable
+      name="concealed1"
+      valueReference="536870912"
+      initial="calculated">
+      <Real reinit="true"/>
+    </ScalarVariable>
+    <!-- Index for next variable = 4 -->
+    <ScalarVariable
+      name="concealed2"
+      valueReference="805306368">      
+      <Real derivative="3"/>
+    </ScalarVariable>
+    <!-- Index for next variable = 5 -->
+    <ScalarVariable
+      name="concealed3"
+      valueReference="536870913"
+      initial="calculated">
+      <Real reinit="true"/>
+    </ScalarVariable>
+    <!-- Index for next variable = 6 -->
+    <ScalarVariable
+      name="concealed4"
+      valueReference="805306369">      
+      <Real derivative="5"/>
+    </ScalarVariable>
+  </ModelVariables>
+  <ModelStructure>
+    <Outputs>
+      <Unknown index="1"/>
+      <Unknown index="2"/>
+    </Outputs>
+    <Derivatives>
+      <Unknown index="4"/>
+      <Unknown index="6"/>
+    </Derivatives>
+    <InitialUnknowns>
+      <Unknown index="1"/>
+      <Unknown index="2"/>
+      <Unknown index="4"/>
+      <Unknown index="6"/>
+    </InitialUnknowns>
+  </ModelStructure>
+</fmiModelDescription>

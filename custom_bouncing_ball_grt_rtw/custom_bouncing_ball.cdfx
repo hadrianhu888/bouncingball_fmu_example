@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE MSRSW PUBLIC "-//ASAM//DTD CALIBRATION DATA FORMAT:V2.1.0:LAI:IAI:XML //EN" "cdf_v2.1.0.sl.dtd">
+<MSRSW>
+
+  <SHORT-NAME>custom_bouncing_ball</SHORT-NAME>
+
+  <CATEGORY>CDF21</CATEGORY>
+
+  <SW-SYSTEMS>
+    <SW-SYSTEM>
+      <SHORT-NAME>custom_bouncing_ball</SHORT-NAME>
+      <SW-INSTANCE-SPEC>
+        <SW-INSTANCE-TREE>
+          <SHORT-NAME>custom_bouncing_ball</SHORT-NAME>
+          <CATEGORY>NO_VCD</CATEGORY>
+          <SW-INSTANCE>
+            <SHORT-NAME>custom_bouncing_ball_P.g</SHORT-NAME>
+            <LONG-NAME></LONG-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>-9.81</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+          <SW-INSTANCE>
+            <SHORT-NAME>custom_bouncing_ball_P.r</SHORT-NAME>
+            <LONG-NAME></LONG-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.8</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+          <SW-INSTANCE>
+            <SHORT-NAME>custom_bouncing_ball_P.v</SHORT-NAME>
+            <LONG-NAME></LONG-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>15.0</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+          <SW-INSTANCE>
+            <SHORT-NAME>custom_bouncing_ball_P.Memory_InitialCondition</SHORT-NAME>
+            <LONG-NAME></LONG-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+          <SW-INSTANCE>
+            <SHORT-NAME>custom_bouncing_ball_P.IntegratorSecondOrder_ICX</SHORT-NAME>
+            <LONG-NAME></LONG-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+        </SW-INSTANCE-TREE>
+      </SW-INSTANCE-SPEC>
+    </SW-SYSTEM>
+  </SW-SYSTEMS>
+
+</MSRSW>

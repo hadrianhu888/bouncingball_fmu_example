@@ -1,0 +1,264 @@
+﻿/******************************************************************************
+ *
+ *  ASAP2 file:     custom_bouncing_ball.a2l
+ *
+ * 
+ *
+ * Code generation for model "custom_bouncing_ball".
+ *
+ * Model version              : 1.4
+ * Simulink Coder version : 10.4 R2021b
+ * C source code generated on : Tue May 17 16:34:50 2022
+ *
+ * Target selection: grt.tlc
+ * Embedded hardware selection: MATLAB Host
+ * Code generation objectives: Unspecified
+ * Validation result: Not run
+ *
+ * (add additional file header information here)
+ *
+ ******************************************************************************/
+ASAP2_VERSION  1 71     /* Version 1.71 */
+
+/begin PROJECT ProjectName "Project Comment Goes Here"
+
+  /begin HEADER "Header Comments go here"
+
+  /end HEADER
+
+  /begin MODULE ModuleName  "Module Comment Goes Here"
+
+    /begin MOD_PAR "MOD PAR Comment Goes Here"
+
+    /end MOD_PAR
+
+    /begin MOD_COMMON  "Mod Common Comment Here"
+      BYTE_ORDER     MSB_LAST
+      ALIGNMENT_BYTE 1
+      ALIGNMENT_WORD 2
+      ALIGNMENT_LONG 4
+      ALIGNMENT_FLOAT32_IEEE 4
+      ALIGNMENT_FLOAT64_IEEE 8
+      ALIGNMENT_INT64 8
+    /end MOD_COMMON
+
+  /begin CHARACTERISTIC 
+    /* Name                   */      custom_bouncing_ball_P.IntegratorSecondOrder_ICX
+    /* Long Identifier        */      ""
+    /* Type                   */      VALUE
+    /* ECU Address            */      0x0000 /* @ECU_Address@custom_bouncing_ball_P.IntegratorSecondOrder_ICX@ */
+    /* Record Layout          */      Scalar_FLOAT64_IEEE
+    /* Maximum Difference     */      0
+    /* Conversion Method      */      custom_bouncing_ball_CM_double
+    /* Lower Limit            */      -1.7E+308
+    /* Upper Limit            */      1.7E+308
+  /end CHARACTERISTIC 
+
+  /begin CHARACTERISTIC 
+    /* Name                   */      custom_bouncing_ball_P.Memory_InitialCondition
+    /* Long Identifier        */      ""
+    /* Type                   */      VALUE
+    /* ECU Address            */      0x0000 /* @ECU_Address@custom_bouncing_ball_P.Memory_InitialCondition@ */
+    /* Record Layout          */      Scalar_FLOAT64_IEEE
+    /* Maximum Difference     */      0
+    /* Conversion Method      */      custom_bouncing_ball_CM_double
+    /* Lower Limit            */      -1.7E+308
+    /* Upper Limit            */      1.7E+308
+  /end CHARACTERISTIC 
+
+  /begin CHARACTERISTIC 
+    /* Name                   */      custom_bouncing_ball_P.g
+    /* Long Identifier        */      ""
+    /* Type                   */      VALUE
+    /* ECU Address            */      0x0000 /* @ECU_Address@custom_bouncing_ball_P.g@ */
+    /* Record Layout          */      Scalar_FLOAT64_IEEE
+    /* Maximum Difference     */      0
+    /* Conversion Method      */      custom_bouncing_ball_CM_double
+    /* Lower Limit            */      -1.7E+308
+    /* Upper Limit            */      1.7E+308
+  /end CHARACTERISTIC 
+
+  /begin CHARACTERISTIC 
+    /* Name                   */      custom_bouncing_ball_P.r
+    /* Long Identifier        */      ""
+    /* Type                   */      VALUE
+    /* ECU Address            */      0x0000 /* @ECU_Address@custom_bouncing_ball_P.r@ */
+    /* Record Layout          */      Scalar_FLOAT64_IEEE
+    /* Maximum Difference     */      0
+    /* Conversion Method      */      custom_bouncing_ball_CM_double
+    /* Lower Limit            */      -1.7E+308
+    /* Upper Limit            */      1.7E+308
+  /end CHARACTERISTIC 
+
+  /begin CHARACTERISTIC 
+    /* Name                   */      custom_bouncing_ball_P.v
+    /* Long Identifier        */      ""
+    /* Type                   */      VALUE
+    /* ECU Address            */      0x0000 /* @ECU_Address@custom_bouncing_ball_P.v@ */
+    /* Record Layout          */      Scalar_FLOAT64_IEEE
+    /* Maximum Difference     */      0
+    /* Conversion Method      */      custom_bouncing_ball_CM_double
+    /* Lower Limit            */      -1.7E+308
+    /* Upper Limit            */      1.7E+308
+  /end CHARACTERISTIC 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_B.InitialVelocity
+    /* Long identifier        */      ""
+    /* Data type              */      FLOAT64_IEEE
+    /* Conversion method      */      custom_bouncing_ball_CM_double
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -1.7E+308
+    /* Upper limit            */      1.7E+308
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_B.InitialVelocity@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_B.IntegratorSecondOrder_o2
+    /* Long identifier        */      ""
+    /* Data type              */      FLOAT64_IEEE
+    /* Conversion method      */      custom_bouncing_ball_CM_double
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -1.7E+308
+    /* Upper limit            */      1.7E+308
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_B.IntegratorSecondOrder_o2@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_DW.InitialVelocity_FirstOutputTime
+    /* Long identifier        */      ""
+    /* Data type              */      UBYTE
+    /* Conversion method      */      custom_bouncing_ball_CM_logical
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      0
+    /* Upper limit            */      1
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_DW.InitialVelocity_FirstOutputTime@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_DW.IntegratorSecondOrder_DWORK1
+    /* Long identifier        */      ""
+    /* Data type              */      UBYTE
+    /* Conversion method      */      custom_bouncing_ball_CM_logical
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      0
+    /* Upper limit            */      1
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_DW.IntegratorSecondOrder_DWORK1@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_DW.IntegratorSecondOrder_MODE
+    /* Long identifier        */      ""
+    /* Data type              */      SLONG
+    /* Conversion method      */      custom_bouncing_ball_CM_int_T
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -2147483648
+    /* Upper limit            */      2147483647
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_DW.IntegratorSecondOrder_MODE@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_DW.Memory_PreviousInput
+    /* Long identifier        */      ""
+    /* Data type              */      FLOAT64_IEEE
+    /* Conversion method      */      custom_bouncing_ball_CM_double
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -1.7E+308
+    /* Upper limit            */      1.7E+308
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_DW.Memory_PreviousInput@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_Y.Position
+    /* Long identifier        */      ""
+    /* Data type              */      FLOAT64_IEEE
+    /* Conversion method      */      custom_bouncing_ball_CM_double
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -1.7E+308
+    /* Upper limit            */      1.7E+308
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_Y.Position@ */
+  /end MEASUREMENT 
+
+  /begin MEASUREMENT 
+    /* Name                   */      custom_bouncing_ball_Y.Velocity
+    /* Long identifier        */      ""
+    /* Data type              */      FLOAT64_IEEE
+    /* Conversion method      */      custom_bouncing_ball_CM_double
+    /* Resolution (Not used)  */      0      
+    /* Accuracy (Not used)    */      0      
+    /* Lower limit            */      -1.7E+308
+    /* Upper limit            */      1.7E+308
+    ECU_ADDRESS                       0x0000 /* @ECU_Address@custom_bouncing_ball_Y.Velocity@ */
+  /end MEASUREMENT 
+
+  /begin COMPU_METHOD
+    /* Name of CompuMethod    */      custom_bouncing_ball_CM_double
+    /* Long identifier        */      "Q = V"
+    /* Conversion Type        */      IDENTICAL
+    /* Format                 */      "%15.10"
+    /* Units                  */      ""
+  /end COMPU_METHOD
+
+  /begin COMPU_METHOD
+    /* Name of CompuMethod    */      custom_bouncing_ball_CM_int_T
+    /* Long identifier        */      "Q = V"
+    /* Conversion Type        */      IDENTICAL
+    /* Format                 */      "customformat"
+    /* Units                  */      ""
+  /end COMPU_METHOD
+
+  /begin COMPU_METHOD
+    /* Name of CompuMethod    */      custom_bouncing_ball_CM_logical
+    /* Long identifier        */      "Q = V"
+    /* Conversion Type        */      IDENTICAL
+    /* Format                 */      "%1.0"
+    /* Units                  */      ""
+  /end COMPU_METHOD
+
+  /begin  RECORD_LAYOUT Scalar_BOOLEAN
+    FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+  /end  RECORD_LAYOUT 
+
+  /begin  RECORD_LAYOUT Scalar_FLOAT64_IEEE
+    FNC_VALUES 1 FLOAT64_IEEE COLUMN_DIR DIRECT
+  /end  RECORD_LAYOUT 
+
+  /begin  RECORD_LAYOUT Scalar_SLONG
+    FNC_VALUES 1 SLONG COLUMN_DIR DIRECT
+  /end  RECORD_LAYOUT 
+
+  /begin GROUP
+    /* Name                   */      custom_bouncing_ball
+    /* Long identifier        */      "custom_bouncing_ball"
+    /* Root                   */      ROOT
+    /begin REF_CHARACTERISTIC
+      custom_bouncing_ball_P.IntegratorSecondOrder_ICX
+      custom_bouncing_ball_P.Memory_InitialCondition
+      custom_bouncing_ball_P.g
+      custom_bouncing_ball_P.r
+      custom_bouncing_ball_P.v
+    /end REF_CHARACTERISTIC
+    /begin REF_MEASUREMENT
+      custom_bouncing_ball_B.InitialVelocity
+      custom_bouncing_ball_B.IntegratorSecondOrder_o2
+      custom_bouncing_ball_DW.InitialVelocity_FirstOutputTime
+      custom_bouncing_ball_DW.IntegratorSecondOrder_DWORK1
+      custom_bouncing_ball_DW.IntegratorSecondOrder_MODE
+      custom_bouncing_ball_DW.Memory_PreviousInput
+      custom_bouncing_ball_Y.Position
+      custom_bouncing_ball_Y.Velocity
+    /end REF_MEASUREMENT
+  /end GROUP
+
+  /end MODULE
+
+/end PROJECT
+/* (add any file trailer comments here) */
+/* EOF custom_bouncing_ball.a2l*/
