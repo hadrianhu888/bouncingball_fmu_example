@@ -1,0 +1,10 @@
+^D:\PROGRAM FILES\MATLAB\RTW\C\FMIKIT-SIMULINK-3.0\GRTFMI\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\Matlab\rtw\c\FMIKit-Simulink-3.0\cmake-3.22.2-windows-x86_64\bin\cmake.exe" "-SD:/Program Files/Matlab/rtw/c/FMIKit-Simulink-3.0/grtfmi" -BF:/GitHubRepos/bouncingball_fmu_example/custom_bouncing_ball_grt_fmi_rtw --check-stamp-file F:/GitHubRepos/bouncingball_fmu_example/custom_bouncing_ball_grt_fmi_rtw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

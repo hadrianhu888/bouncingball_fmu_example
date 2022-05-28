@@ -1,0 +1,23 @@
+%implements s0_b0_kvvvh_Update "C"
+
+%function Update(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* {S!d324}Update for Memory: '<Root>/Memory' */
+    custom_bouncing_ball_DW.Memory_PreviousInput = custom_bouncing_ball_B.IntegratorSecondOrder_o2;
+}
+/* {S!d326}Update for SecondOrderIntegrator: '<Root>/Integrator, Second-Order' */
+custom_bouncing_ball_DW.IntegratorSecondOrder_DWORK1 = false;
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function UpdateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 3, fcnProtoType)>
+%endfunction

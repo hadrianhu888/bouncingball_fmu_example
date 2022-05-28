@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+  fmiVersion="3.0"
+  instantiationToken="{750dc597-aba0-4b93-b73d-8b2e19e869f6}"
+  modelName="custom_bouncing_ball"
+  generationTool="Simulink 9.6 (R2021b) 14-May-2021 with FMI Kit 3.0 (grtfmi.tlc, ode3, 0.2 s)"
+  generationDateAndTime="2022-05-28T17:51:13"
+  author="lordx"
+  version="1.7">
+
+  <CoSimulation
+    modelIdentifier="custom_bouncing_ball"
+    canBeInstantiatedOnlyOncePerProcess="true"
+    canHandleVariableCommunicationStepSize="true">
+  </CoSimulation>

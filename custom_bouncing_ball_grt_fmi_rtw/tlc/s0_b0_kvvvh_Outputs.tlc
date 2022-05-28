@@ -1,0 +1,49 @@
+%implements s0_b0_kvvvh_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%<SLibCG_TrackEO(1)>\
+%<SLibCG_TrackEO(0)>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* {S!d304}Memory: '<Root>/Memory' */
+    custom_bouncing_ball_B.Memory = custom_bouncing_ball_DW.Memory_PreviousInput;
+    /* {S!d306}Gain: '<Root>/Gain' */
+    custom_bouncing_ball_B.Gain = custom_bouncing_ball_P.r * custom_bouncing_ball_B.Memory;
+    /* {S!d312}InitialCondition: '<Root>/Initial Velocity ' */
+    if (custom_bouncing_ball_DW.InitialVelocity_FirstOutputTime) {
+        custom_bouncing_ball_DW.InitialVelocity_FirstOutputTime = false;
+        /* {S!d308}InitialCondition: '<Root>/Initial Velocity ' */
+        custom_bouncing_ball_B.InitialVelocity = custom_bouncing_ball_P.v;
+    } else {
+        /* {S!d310}InitialCondition: '<Root>/Initial Velocity ' */
+        custom_bouncing_ball_B.InitialVelocity = custom_bouncing_ball_B.Gain;
+    }
+    /* {E!d312}End of InitialCondition: '<Root>/Initial Velocity ' */
+}
+/* {S!d314}SecondOrderIntegrator: '<Root>/Integrator, Second-Order' */
+if (custom_bouncing_ball_DW.IntegratorSecondOrder_DWORK1) {
+    custom_bouncing_ball_X.IntegratorSecondOrder_CSTATE[1] = custom_bouncing_ball_B.InitialVelocity;
+}
+/* {S!d316}SecondOrderIntegrator: '<Root>/Integrator, Second-Order' */
+custom_bouncing_ball_B.IntegratorSecondOrder_o1 = custom_bouncing_ball_X.IntegratorSecondOrder_CSTATE[0];
+/* {S!d318}SecondOrderIntegrator: '<Root>/Integrator, Second-Order' */
+custom_bouncing_ball_B.IntegratorSecondOrder_o2 = custom_bouncing_ball_X.IntegratorSecondOrder_CSTATE[1];
+/* {S!d320}Outport: '<Root>/Position' */
+custom_bouncing_ball_Y.Position = custom_bouncing_ball_B.IntegratorSecondOrder_o1;
+/* {S!d322}Outport: '<Root>/Velocity' */
+custom_bouncing_ball_Y.Velocity = custom_bouncing_ball_B.IntegratorSecondOrder_o2;
+%<SLibInsertSolverResetCode()>\
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedOutputLocalVars", localVarDecl)>
+%endfunction
+%function OutputsFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Outputs(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+%endfunction

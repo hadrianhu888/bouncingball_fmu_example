@@ -1,0 +1,20 @@
+%implements s0_b0_kvvvh_ModelExternalOutputInit "C"
+
+%function ModelExternalOutputInit(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+(void)memset(&custom_bouncing_ball_Y, 0, sizeof(ExtY_custom_bouncing_ball_T));
+%<SLibCG_TrackEO(1)>\
+%<SLibCG_TrackEO(0)>\
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function ModelExternalOutputInitFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ModelExternalOutputInit(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 6, fcnProtoType)>
+%endfunction

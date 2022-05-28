@@ -1,0 +1,31 @@
+%implements s0_b0_kvvvh_ForcingFunction "C"
+
+%function ForcingFunction(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+XDot_custom_bouncing_ball_T *_rtXdot;
+%closefile localVarDecl
+_rtXdot = %<(SLibCG_SE(SLibGetContStatesDerivativeStructPtr()))>;
+/* {S!d330}ForcingFunction for SecondOrderIntegrator: '<Root>/Integrator, Second-Order' incorporates:
+ *  Constant: '<Root>/Constant'
+ */
+if (custom_bouncing_ball_DW.IntegratorSecondOrder_MODE == 0) {
+    _rtXdot->IntegratorSecondOrder_CSTATE[0] = custom_bouncing_ball_X.IntegratorSecondOrder_CSTATE[1];
+    _rtXdot->IntegratorSecondOrder_CSTATE[1] = custom_bouncing_ball_P.g;
+}
+/* {E!d330}End of ForcingFunction for SecondOrderIntegrator: '<Root>/Integrator, Second-Order' */
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedForcingFunctionLocalVars", localVarDecl)>
+%endfunction
+%function ForcingFunctionFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ForcingFunction(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 5, fcnProtoType)>
+%endfunction

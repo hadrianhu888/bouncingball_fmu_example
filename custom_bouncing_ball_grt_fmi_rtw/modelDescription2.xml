@@ -1,0 +1,34 @@
+
+  <DefaultExperiment
+    startTime="0.0"
+    stopTime="10.0"
+    stepSize="0.2"/>
+
+  <ModelVariables>
+
+    <!-- Independent Variable -->
+    <Float64 name="time2" valueReference="0" causality="independent" variability="continuous"/>
+
+    <!-- Parameters -->
+
+    <!-- Outputs -->
+    <Float64 name="Position" valueReference="1" causality="output"/>
+    <Float64 name="Velocity" valueReference="2" causality="output"/>
+
+    <!-- Global Block Outputs -->
+    <Float64 name="Memory.Memory" valueReference="3"/>
+    <Float64 name="Gain.Gain" valueReference="4"/>
+    <Float64 name="'Initial Velocity '.InitialVelocity" valueReference="5"/>
+    <Float64 name="'Integrator, Second-Order'.IntegratorSecondOrder_o1" valueReference="6"/>
+    <Float64 name="'Integrator, Second-Order'.IntegratorSecondOrder_o2" valueReference="7"/>
+
+  </ModelVariables>
+
+  <ModelStructure>
+    <Output valueReference="1"/>
+    <Output valueReference="2"/>
+    <InitialUnknown valueReference="1"/>
+    <InitialUnknown valueReference="2"/>
+  </ModelStructure>
+
+</fmiModelDescription>

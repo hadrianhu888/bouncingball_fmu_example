@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Program Files\Matlab\rtw\c\src\rt_matrx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_capi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Program Files\Matlab\rtw\c\FMIKit-Simulink-3.0\grtfmi\fmi3Functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\builtin_typeid_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_capi_host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\custom_bouncing_ball_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\multiword_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\rtmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\rtwtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_sf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\bio_sig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\cg_matrx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\cg_sfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\dt_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\mdl_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\odesup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\pt_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_logging_mmi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_logging_simtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_matrx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_mxclassid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rt_sim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtmcmacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtmmacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtsplntypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_capi_examples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_linux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_linux_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_modelmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_modelmap_logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_modelmap_simtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_msvc_lshift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\rtw_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\rtw\c\src\sfcn_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\blascompat32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\covrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_ComputeMetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_acfObjectDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_disparitySGM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_foregroundDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_ocrutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_readAprilTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_readBarcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_searchOrganizedPointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\cvstCG_voxelGridFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\emlrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\fintrf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\io64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\lapack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\lapacke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\lapacke_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwboxfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwboxfilter3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwdistEDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwdistEDTFT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwdistEDTFT_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwdistEDT_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwlookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwlookup_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwpackc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwpackctbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwunpackc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwbwunpackctbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwcannythresholding_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwddist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwedgesobelprewitt_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwedgethinning_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwgetnumcores.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwgrayto16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwgrayto8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwgrayxform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwgrayxform_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimlincomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimlincomb_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimreconstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimregionalmax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwimterp2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwint16touint16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwint32touint32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwint8touint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwintlut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwintluttbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwippfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwippgeotrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwippmedianfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwippreconstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwjpegreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_binary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_binary_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_flat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_flat_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_ipp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_nonflat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_nonflat_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwmorphop_packed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwordfilt2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwremap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwremaptbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwrgb2gray_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwrgb2hsv_tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwtbbhist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\libmwuint16toint16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclcom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclcomclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclcommain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclcppclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclmcr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclmcrrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mclxlmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mcr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mwmathutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mwservices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mwslpointerutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\mwstringutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\polygonBoolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\extern\include\tmwtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\cgxeooprt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\cgxert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\fixedpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\fixpoint_spec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\i18n_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\libmwslsa_sim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_continuous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_extmode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_matlogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_matlogging_simtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\rtw_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sfcn_loader_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sigmapdef_sfcn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sigregdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sigstream_rtw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simlogCIntrf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_64_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_compcond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_implement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_internal_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simstruc_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simulink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simulink2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\simulink_solver_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slImageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_common_types_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_datatype_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_fileio_rtw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_fixpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_prodhwdevicetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_report_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_sample_time_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_sfcn_st_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_solver_rtw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sl_types_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slccrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_block_runtime_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_simbridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_simstruct_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_ssExecutionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_vm_lookup_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_vm_rt_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_vm_simstruct_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slexec_vm_zc_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slsa_sim_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slsv_diagnostic_codegen_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slsv_diagnostic_deployment_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slsv_diagnostic_logger_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\slsv_mexhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\solver_zc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Program Files\Matlab\simulink\include\sysran_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Program Files\Matlab\rtw\c\FMIKit-Simulink-3.0\grtfmi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\fmiwrapper.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="F:\GitHubRepos\bouncingball_fmu_example\custom_bouncing_ball_grt_fmi_rtw\modelDescription.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FE37586F-E267-3375-8B6E-7545F6DD34ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{501C600E-E70F-388F-BC96-6E2AD9EB966B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

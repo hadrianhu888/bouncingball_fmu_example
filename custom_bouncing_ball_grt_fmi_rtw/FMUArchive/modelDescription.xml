@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+  fmiVersion="3.0"
+  instantiationToken="{750dc597-aba0-4b93-b73d-8b2e19e869f6}"
+  modelName="custom_bouncing_ball"
+  generationTool="Simulink 9.6 (R2021b) 14-May-2021 with FMI Kit 3.0 (grtfmi.tlc, ode3, 0.2 s)"
+  generationDateAndTime="2022-05-28T17:51:13"
+  author="lordx"
+  version="1.7">
+
+  <CoSimulation
+    modelIdentifier="custom_bouncing_ball"
+    canBeInstantiatedOnlyOncePerProcess="true"
+    canHandleVariableCommunicationStepSize="true">
+  </CoSimulation>
+
+  <DefaultExperiment
+    startTime="0.0"
+    stopTime="10.0"
+    stepSize="0.2"/>
+
+  <ModelVariables>
+
+    <!-- Independent Variable -->
+    <Float64 name="time2" valueReference="0" causality="independent" variability="continuous"/>
+
+    <!-- Parameters -->
+
+    <!-- Outputs -->
+    <Float64 name="Position" valueReference="1" causality="output"/>
+    <Float64 name="Velocity" valueReference="2" causality="output"/>
+
+    <!-- Global Block Outputs -->
+    <Float64 name="Memory.Memory" valueReference="3"/>
+    <Float64 name="Gain.Gain" valueReference="4"/>
+    <Float64 name="'Initial Velocity '.InitialVelocity" valueReference="5"/>
+    <Float64 name="'Integrator, Second-Order'.IntegratorSecondOrder_o1" valueReference="6"/>
+    <Float64 name="'Integrator, Second-Order'.IntegratorSecondOrder_o2" valueReference="7"/>
+
+  </ModelVariables>
+
+  <ModelStructure>
+    <Output valueReference="1"/>
+    <Output valueReference="2"/>
+    <InitialUnknown valueReference="1"/>
+    <InitialUnknown valueReference="2"/>
+  </ModelStructure>
+
+</fmiModelDescription>
