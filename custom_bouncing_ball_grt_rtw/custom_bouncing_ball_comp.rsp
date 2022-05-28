@@ -1,6 +1,0 @@
--IF:/GitHubRepos/bouncingball_fmu_example
--IF:/GitHubRepos/bouncingball_fmu_example/custom_bouncing_ball_grt_rtw
--ID:/Program\ Files/Matlab/extern/include
--ID:/Program\ Files/Matlab/simulink/include
--ID:/Program\ Files/Matlab/rtw/c/src
--ID:/Program\ Files/Matlab/rtw/c/src/ext_mode/common

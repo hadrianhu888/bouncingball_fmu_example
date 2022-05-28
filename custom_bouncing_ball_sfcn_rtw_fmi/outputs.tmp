@@ -1,2 +1,0 @@
-    outputs[0] = &(((real_T *) ssGetOutputPortSignal(S, 0))[0]);
-    outputs[1] = &(((real_T *) ssGetOutputPortSignal(S, 1))[0]);
